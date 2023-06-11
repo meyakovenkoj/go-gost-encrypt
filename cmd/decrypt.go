@@ -26,8 +26,7 @@ func (d *Decrypter) Reset(reader io.Reader) {
 }
 
 func (e *Decrypter) Read(p []byte) (n int, err error) {
-	var data []byte
-	n, err = e.r.Read(data)
-	p = encrypt.EncryptData(data, e.key)
+	n, err = e.r.Read(p)
+	p = encrypt.EncryptData(p, e.key)
 	return
 }
