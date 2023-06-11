@@ -1,11 +1,5 @@
 package main
 
-// /*
-// #cgo LDFLAGS: ./lib/kuznechik_cuda/libkuznechik.a
-// #cgo CFLAGS: -I./lib/kuznechik_cuda/include/
-// #include "kuznechik.h"
-// */
-// import "C"
 import (
 	"encoding/hex"
 	"flag"

@@ -1,8 +1,8 @@
 package encrypt
 
 /*
-#cgo LDFLAGS: ./lib/kuznechik_cuda/libkuznechik.a
-#cgo CFLAGS: -I../lib/kuznechik_cuda/include/
+#cgo LDFLAGS: -lgostcrypt
+#cgo CFLAGS: -I/usr/local/include/gostcrypt/
 #include "kuznechik.h"
 */
 import "C"
