@@ -3,7 +3,7 @@ package vko
 import "github.com/pedroalbanese/gogost/gost3410"
 
 func VKO2012256(prvRaw1 []byte, pubRaw2 []byte, ukmRaw []byte) ([]byte, error) {
-	c := gost3410.CurveIdtc26gost341012512paramSetA()
+	c := gost3410.CurveIdtc26gost341012256paramSetA()
 	prv1, err := gost3410.NewPrivateKey(c, prvRaw1[:])
 	if err != nil {
 		panic(err)
