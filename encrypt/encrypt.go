@@ -2,7 +2,7 @@ package encrypt
 
 /*
 // #cgo LDFLAGS: -L/usr/local/cuda/lib64 -L/usr/local/lib/ -Wl,-rpath=/usr/local/lib/ -lgostcrypt -lcudart
-#cgo LDFLAGS: -L/usr/local/lib/ -Wl,-rpath=/usr/local/lib/ -lgostcrypt
+#cgo LDFLAGS: -L/usr/local/lib/ -lgostcrypt
 #cgo CFLAGS: -I/usr/local/include/gostcrypt/
 #include "kuznechik.h"
 */
